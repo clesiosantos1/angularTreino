@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  justify-content: center;background-color: black;
+
+}
+
+h1{
+  color: red;
+}
+p{
+  color: white;
+}
