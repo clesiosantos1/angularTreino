@@ -1,0 +1,11 @@
+<div>
+   <h2>Lista de Números</h2>
+   <button (click)="adicionarItem()">Adicionar item</button>
+   <ul>
+    <li *ngFor="let numeros of numeros; let i = index">
+      {{numeros}}
+      <button class="btn btn-danger" (click)="removerItem(i)">Remover</button> 
+      <button class="btn btn-primary" (click)="actualizarItem(i)">Atualizar</button>
+    </li>
+   </ul>
+</div>
